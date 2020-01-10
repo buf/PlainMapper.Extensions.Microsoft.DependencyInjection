@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.0.0-alpha1</Version>
+    <Authors>Łukasz Marcinek</Authors>
+    <Company>Łukasz Marcinek</Company>
+    <RepositoryUrl>https://github.com/buf/PlainMapper.Extensions.Microsoft.DependencyInjection</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>C# Mapper Mapping DI Microsoft PlainMapper DependencyInjection Extensions</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>
